@@ -1,14 +1,10 @@
 <script setup>
+import NavBar from "@/components/NavBar.vue";
 
 </script>
 
 <template>
-  <div class="container">
-    <div class="home-container">
-      <h1>HOME</h1>
-      <p>欢迎来到首页</p>
-    </div>
-  </div>
+  <nav-bar />
 </template>
 
 <style scoped lang="scss">

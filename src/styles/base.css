@@ -6,14 +6,15 @@
 
 html {
     height: 100%;
-    font-size: 16px;
+    font-size: 16Px;
 }
 
 @media (max-width: 768px) {
     /* 768px 100vw*/
     /* 16px 100*16/768 = 2.0833333333333335vw */
+    /* 当页面较小时，最小字符大小应该为12px */
     html {
-        font-size: calc(max(16Px, 2.08333vw));
+        font-size: calc(max(12Px, 2.08333vw));
     }
 }
 
